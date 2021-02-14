@@ -1,0 +1,4 @@
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app_autogen.dir
