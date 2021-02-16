@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     button.resize(200, 100);
     button.show();
 
-    //Manager manager(&a);
+    Manager manager(&a);
 
     return QApplication::exec();
 }
