@@ -156,6 +156,33 @@ gmd_app_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app_autogen.dir/build.make CMakeFiles/gmd_app_autogen.dir/build
 .PHONY : gmd_app_autogen/fast
 
+NetworkManager.o: NetworkManager.cpp.o
+
+.PHONY : NetworkManager.o
+
+# target to build an object file
+NetworkManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/NetworkManager.cpp.o
+.PHONY : NetworkManager.cpp.o
+
+NetworkManager.i: NetworkManager.cpp.i
+
+.PHONY : NetworkManager.i
+
+# target to preprocess a source file
+NetworkManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/NetworkManager.cpp.i
+.PHONY : NetworkManager.cpp.i
+
+NetworkManager.s: NetworkManager.cpp.s
+
+.PHONY : NetworkManager.s
+
+# target to generate assembly for a file
+NetworkManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/NetworkManager.cpp.s
+.PHONY : NetworkManager.cpp.s
+
 gmd_app_autogen/mocs_compilation.o: gmd_app_autogen/mocs_compilation.cpp.o
 
 .PHONY : gmd_app_autogen/mocs_compilation.o
@@ -220,6 +247,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gmd_app_autogen"
 	@echo "... gmd_app"
+	@echo "... NetworkManager.o"
+	@echo "... NetworkManager.i"
+	@echo "... NetworkManager.s"
 	@echo "... gmd_app_autogen/mocs_compilation.o"
 	@echo "... gmd_app_autogen/mocs_compilation.i"
 	@echo "... gmd_app_autogen/mocs_compilation.s"

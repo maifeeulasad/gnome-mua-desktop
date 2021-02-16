@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/NetworkManager.cpp.o"
   "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/mocs_compilation.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o"
   "/home/mua/Desktop/gnome-mua-desktop/gmd-app/main.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/main.cpp.o"
   )
@@ -13,6 +14,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NETWORK_LIB"
   "QT_WIDGETS_LIB"
   )
 
@@ -24,6 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
   )
 
 # Targets to which this target links.
