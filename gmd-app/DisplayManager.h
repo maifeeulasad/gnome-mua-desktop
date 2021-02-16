@@ -10,8 +10,10 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
+#include <QTimer>
 #include <QProcess>
 #include <iostream>
+#include <cstdlib>
 
 class DisplayManager : public QObject{
 Q_OBJECT
@@ -21,6 +23,7 @@ public:
     QJsonArray wallpaperArray;
 public slots:
     void ReceiveData(QJsonDocument jsonDocument);
+    void ChangeWallpaper();
 };
 
 

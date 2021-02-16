@@ -9,6 +9,7 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -16,6 +17,7 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
@@ -78,6 +80,7 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -135,6 +138,7 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
@@ -145,6 +149,7 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
@@ -209,6 +214,7 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -428,6 +434,7 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
@@ -438,6 +445,7 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
@@ -502,6 +510,7 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -577,6 +586,7 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
@@ -587,6 +597,7 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
@@ -651,6 +662,7 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
