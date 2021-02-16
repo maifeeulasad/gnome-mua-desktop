@@ -3,6 +3,8 @@
 
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: ../DisplayManager.cpp
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: ../DisplayManager.h
+CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -34,6 +36,9 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -117,6 +122,8 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o: ../Manager.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: ../NetworkManager.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -156,6 +163,9 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/q
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 CMakeFiles/gmd_app.dir/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -255,6 +265,7 @@ CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: ../NetworkManager.cpp
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: ../NetworkManager.h
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -294,6 +305,8 @@ CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 CMakeFiles/gmd_app.dir/NetworkManager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -398,6 +411,8 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: gmd_app_autogen/E
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: gmd_app_autogen/mocs_compilation.cpp
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -437,6 +452,9 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -538,6 +556,8 @@ CMakeFiles/gmd_app.dir/main.cpp.o: ../NetworkManager.h
 CMakeFiles/gmd_app.dir/main.cpp.o: ../main.cpp
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -577,6 +597,9 @@ CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhas
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 CMakeFiles/gmd_app.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h

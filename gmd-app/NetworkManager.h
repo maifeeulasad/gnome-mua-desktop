@@ -9,6 +9,7 @@
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>
 #include <QApplication>
+#include <QJsonDocument>
 #include <iostream>
 
 class NetworkManager : public QObject {
@@ -20,7 +21,7 @@ public:
 
     QNetworkAccessManager *manager;
 signals:
-    void OnReceived();
+    void OnReceived(QJsonDocument jsonDocument);
 };
 
 #endif //GMD_APP_NETWORK_MANAGER_H

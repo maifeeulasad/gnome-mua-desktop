@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_DisplayManager_t {
-    QByteArrayData data[3];
-    char stringdata0[28];
+    QByteArrayData data[4];
+    char stringdata0[41];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,10 +33,11 @@ static const qt_meta_stringdata_DisplayManager_t qt_meta_stringdata_DisplayManag
     {
 QT_MOC_LITERAL(0, 0, 14), // "DisplayManager"
 QT_MOC_LITERAL(1, 15, 11), // "ReceiveData"
-QT_MOC_LITERAL(2, 27, 0) // ""
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 12) // "jsonDocument"
 
     },
-    "DisplayManager\0ReceiveData\0"
+    "DisplayManager\0ReceiveData\0\0jsonDocument"
 };
 #undef QT_MOC_LITERAL
 
@@ -54,10 +55,10 @@ static const uint qt_meta_data_DisplayManager[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   19,    2, 0x0a /* Public */,
+       1,    1,   19,    2, 0x0a /* Public */,
 
  // slots: parameters
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::QJsonDocument,    3,
 
        0        // eod
 };
@@ -68,11 +69,10 @@ void DisplayManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         DisplayManager *_t = static_cast<DisplayManager *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->ReceiveData(); break;
+        case 0: _t->ReceiveData((*reinterpret_cast< QJsonDocument(*)>(_a[1]))); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
 }
 
 const QMetaObject DisplayManager::staticMetaObject = {

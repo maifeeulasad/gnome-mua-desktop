@@ -7,6 +7,8 @@
 
 #include <QApplication>
 #include <QObject>
+#include <QJsonDocument>
+#include <QJsonArray>
 #include <iostream>
 
 class DisplayManager : public QObject{
@@ -14,8 +16,9 @@ Q_OBJECT
 public:
     explicit DisplayManager(QApplication *app);
     void ChangeWallPaper();
+    QJsonArray wallpaperArray;
 public slots:
-    void ReceiveData();
+    void ReceiveData(QJsonDocument jsonDocument);
 };
 
 

@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_NetworkManager_t {
-    QByteArrayData data[3];
-    char stringdata0[27];
+    QByteArrayData data[4];
+    char stringdata0[40];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,10 +33,11 @@ static const qt_meta_stringdata_NetworkManager_t qt_meta_stringdata_NetworkManag
     {
 QT_MOC_LITERAL(0, 0, 14), // "NetworkManager"
 QT_MOC_LITERAL(1, 15, 10), // "OnReceived"
-QT_MOC_LITERAL(2, 26, 0) // ""
+QT_MOC_LITERAL(2, 26, 0), // ""
+QT_MOC_LITERAL(3, 27, 12) // "jsonDocument"
 
     },
-    "NetworkManager\0OnReceived\0"
+    "NetworkManager\0OnReceived\0\0jsonDocument"
 };
 #undef QT_MOC_LITERAL
 
@@ -54,10 +55,10 @@ static const uint qt_meta_data_NetworkManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   19,    2, 0x06 /* Public */,
+       1,    1,   19,    2, 0x06 /* Public */,
 
  // signals: parameters
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::QJsonDocument,    3,
 
        0        // eod
 };
@@ -68,20 +69,19 @@ void NetworkManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         NetworkManager *_t = static_cast<NetworkManager *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->OnReceived(); break;
+        case 0: _t->OnReceived((*reinterpret_cast< QJsonDocument(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            typedef void (NetworkManager::*_t)();
+            typedef void (NetworkManager::*_t)(QJsonDocument );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&NetworkManager::OnReceived)) {
                 *result = 0;
                 return;
             }
         }
     }
-    Q_UNUSED(_a);
 }
 
 const QMetaObject NetworkManager::staticMetaObject = {
@@ -121,9 +121,10 @@ int NetworkManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void NetworkManager::OnReceived()
+void NetworkManager::OnReceived(QJsonDocument _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

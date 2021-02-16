@@ -15,6 +15,6 @@ void NetworkManager::Get(QString url) const {
 }
 
 void NetworkManager::OnFinished(QNetworkReply *reply) {
-    qDebug() << reply->readAll();
-    OnReceived();
+    QJsonDocument jsonDocument = QJsonDocument::fromJson(reply->readAll());
+    OnReceived(jsonDocument);
 }

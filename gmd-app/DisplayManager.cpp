@@ -12,6 +12,6 @@ void DisplayManager::ChangeWallPaper() {
 
 }
 
-void DisplayManager::ReceiveData() {
-    std::cout << "being called" << std::endl;
+void DisplayManager::ReceiveData(QJsonDocument jsonDocument) {
+    wallpaperArray = jsonDocument.array();
 }

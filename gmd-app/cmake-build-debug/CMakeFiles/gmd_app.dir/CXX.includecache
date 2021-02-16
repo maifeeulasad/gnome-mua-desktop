@@ -6,10 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.cpp
+DisplayManager.h
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
+
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
 QApplication
 -
 QObject
+-
+QJsonDocument
+-
+QJsonArray
 -
 iostream
 -
@@ -28,6 +36,10 @@ NetworkManager.h
 DisplayManager.h
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
 
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.cpp
+NetworkManager.h
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
+
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
 QtNetwork/QNetworkAccessManager
 -
@@ -35,8 +47,50 @@ QtNetwork/QNetworkReply
 -
 QApplication
 -
+QJsonDocument
+-
 iostream
 -
+
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_DisplayManager.cpp
+../../../DisplayManager.h
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_Manager.cpp
+../../../Manager.h
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_NetworkManager.cpp
+../../../NetworkManager.h
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_DisplayManager.cpp
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_DisplayManager.cpp
+EWIEGA46WW/moc_Manager.cpp
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_Manager.cpp
+EWIEGA46WW/moc_NetworkManager.cpp
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_NetworkManager.cpp
+
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/main.cpp
+QApplication
+-
+QPushButton
+-
+Manager.h
+/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 qflags.h
@@ -45,6 +99,14 @@ qflags.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
 qiodevice.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+qjsonarray.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
+qjsondocument.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 qmetatype.h
@@ -362,6 +424,24 @@ QtCore/qstring.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
 QtCore/qglobal.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+QtCore/qjsonvalue.h
+-
+QtCore/qiterator.h
+-
+initializer_list
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+QtCore/qjsonvalue.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
@@ -884,6 +964,16 @@ QtCore/qpoint.h
 QtCore/qsize.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+QtGui/qtguiglobal.h
+-
+QtCore/qsize.h
+-
+QtCore/qlist.h
+-
+QtGui/qpixmap.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
@@ -1238,6 +1328,20 @@ QtNetwork/qtnetwork-config.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+qpushbutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qicon.h
+-
+QtGui/qkeysequence.h
+-
+QtWidgets/qwidget.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1260,6 +1364,12 @@ QtGui/qguiapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h

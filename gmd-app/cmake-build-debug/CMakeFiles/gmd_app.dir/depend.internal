@@ -4,6 +4,8 @@
 CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.cpp
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -35,6 +37,9 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -118,6 +123,8 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -157,6 +164,9 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -256,6 +266,7 @@ CMakeFiles/gmd_app.dir/NetworkManager.cpp.o
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -295,6 +306,8 @@ CMakeFiles/gmd_app.dir/NetworkManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -399,6 +412,8 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/mocs_compilation.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -438,6 +453,9 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
@@ -539,6 +557,8 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/main.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
@@ -578,6 +598,9 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
