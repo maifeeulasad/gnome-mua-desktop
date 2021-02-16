@@ -6,7 +6,9 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -39,6 +41,7 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -56,6 +59,7 @@ CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
@@ -125,8 +129,10 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
@@ -166,6 +172,7 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -183,6 +190,7 @@ CMakeFiles/gmd_app.dir/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
@@ -414,8 +422,10 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
@@ -455,6 +465,7 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -472,6 +483,7 @@ CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
@@ -559,8 +571,10 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
@@ -600,6 +614,7 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -617,6 +632,7 @@ CMakeFiles/gmd_app.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h

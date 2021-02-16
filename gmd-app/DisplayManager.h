@@ -9,13 +9,15 @@
 #include <QObject>
 #include <QJsonDocument>
 #include <QJsonArray>
+#include <QJsonObject>
+#include <QProcess>
 #include <iostream>
 
 class DisplayManager : public QObject{
 Q_OBJECT
 public:
     explicit DisplayManager(QApplication *app);
-    void ChangeWallPaper();
+    void ChangeWallPaper(QString filePath);
     QJsonArray wallpaperArray;
 public slots:
     void ReceiveData(QJsonDocument jsonDocument);
