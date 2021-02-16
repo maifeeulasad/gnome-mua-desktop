@@ -13,7 +13,8 @@
 class Manager : public QObject{
 Q_OBJECT
 public:
-    explicit Manager(QApplication *application, NetworkManager networkManager, DisplayManager displayManager);
+    explicit Manager(QApplication *application);
+    Manager(QApplication *application, NetworkManager networkManager, DisplayManager displayManager);
     DisplayManager displayManager;
     NetworkManager networkManager;
 };

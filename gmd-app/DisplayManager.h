@@ -15,7 +15,7 @@ public:
     explicit DisplayManager(QApplication *app);
     void ChangeWallPaper();
 public slots:
-    static void ReceiveData();
+    void ReceiveData();
 };
 
 
