@@ -116,6 +116,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.cpp">
+			<Option target="gmd_app"/>
+		</Unit>
+		<Unit filename="/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h">
+			<Option target="gmd_app"/>
+		</Unit>
+		<Unit filename="/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.cpp">
+			<Option target="gmd_app"/>
+		</Unit>
+		<Unit filename="/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.h">
+			<Option target="gmd_app"/>
+		</Unit>
 		<Unit filename="/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.cpp">
 			<Option target="gmd_app"/>
 		</Unit>

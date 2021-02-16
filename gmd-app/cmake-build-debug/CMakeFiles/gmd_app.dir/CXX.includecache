@@ -9,8 +9,6 @@
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.cpp
 NetworkManager.h
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
-iostream
--
 
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
 QtNetwork/QNetworkAccessManager
@@ -18,6 +16,8 @@ QtNetwork/QNetworkAccessManager
 QtNetwork/QNetworkReply
 -
 QApplication
+-
+iostream
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags

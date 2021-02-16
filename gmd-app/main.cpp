@@ -1,6 +1,6 @@
 #include <QApplication>
 #include <QPushButton>
-#include "NetworkManager.h"
+#include "Manager.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -8,11 +8,7 @@ int main(int argc, char *argv[]) {
     button.resize(200, 100);
     button.show();
 
-
-    QString url
-            = "https://raw.githubusercontent.com/maifeeulasad/gnome-mua-desktop/data-source/data.json";
-    NetworkManager worker(&a);
-    worker.Get(url);
+    //Manager manager(&a);
 
     return QApplication::exec();
 }

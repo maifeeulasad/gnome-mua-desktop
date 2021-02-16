@@ -9,15 +9,18 @@
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>
 #include <QApplication>
+#include <iostream>
 
 class NetworkManager : public QObject {
 Q_OBJECT
 public:
     explicit NetworkManager(QApplication* application);
     void Get(QString url) const;
-    static void OnFinished(QNetworkReply *reply);
+    void OnFinished(QNetworkReply *reply);
 
     QNetworkAccessManager *manager;
+signals:
+    void OnReceived();
 };
 
 #endif //GMD_APP_NETWORK_MANAGER_H

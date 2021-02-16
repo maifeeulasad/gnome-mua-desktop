@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/DisplayManager.cpp.o"
+  "/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/Manager.cpp.o"
   "/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/NetworkManager.cpp.o"
   "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/mocs_compilation.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/gmd_app_autogen/mocs_compilation.cpp.o"
   "/home/mua/Desktop/gnome-mua-desktop/gmd-app/main.cpp" "/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/CMakeFiles/gmd_app.dir/main.cpp.o"

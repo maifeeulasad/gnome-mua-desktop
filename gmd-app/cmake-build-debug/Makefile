@@ -156,6 +156,60 @@ gmd_app_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app_autogen.dir/build.make CMakeFiles/gmd_app_autogen.dir/build
 .PHONY : gmd_app_autogen/fast
 
+DisplayManager.o: DisplayManager.cpp.o
+
+.PHONY : DisplayManager.o
+
+# target to build an object file
+DisplayManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/DisplayManager.cpp.o
+.PHONY : DisplayManager.cpp.o
+
+DisplayManager.i: DisplayManager.cpp.i
+
+.PHONY : DisplayManager.i
+
+# target to preprocess a source file
+DisplayManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/DisplayManager.cpp.i
+.PHONY : DisplayManager.cpp.i
+
+DisplayManager.s: DisplayManager.cpp.s
+
+.PHONY : DisplayManager.s
+
+# target to generate assembly for a file
+DisplayManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/DisplayManager.cpp.s
+.PHONY : DisplayManager.cpp.s
+
+Manager.o: Manager.cpp.o
+
+.PHONY : Manager.o
+
+# target to build an object file
+Manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/Manager.cpp.o
+.PHONY : Manager.cpp.o
+
+Manager.i: Manager.cpp.i
+
+.PHONY : Manager.i
+
+# target to preprocess a source file
+Manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/Manager.cpp.i
+.PHONY : Manager.cpp.i
+
+Manager.s: Manager.cpp.s
+
+.PHONY : Manager.s
+
+# target to generate assembly for a file
+Manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gmd_app.dir/build.make CMakeFiles/gmd_app.dir/Manager.cpp.s
+.PHONY : Manager.cpp.s
+
 NetworkManager.o: NetworkManager.cpp.o
 
 .PHONY : NetworkManager.o
@@ -247,6 +301,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gmd_app_autogen"
 	@echo "... gmd_app"
+	@echo "... DisplayManager.o"
+	@echo "... DisplayManager.i"
+	@echo "... DisplayManager.s"
+	@echo "... Manager.o"
+	@echo "... Manager.i"
+	@echo "... Manager.s"
 	@echo "... NetworkManager.o"
 	@echo "... NetworkManager.i"
 	@echo "... NetworkManager.s"

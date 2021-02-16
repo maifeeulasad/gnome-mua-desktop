@@ -3,7 +3,6 @@
 //
 
 #include "NetworkManager.h"
-#include <iostream>
 
 NetworkManager::NetworkManager(QApplication* app) {
     manager = new QNetworkAccessManager(app);
@@ -17,4 +16,5 @@ void NetworkManager::Get(QString url) const {
 
 void NetworkManager::OnFinished(QNetworkReply *reply) {
     qDebug() << reply->readAll();
+    OnReceived();
 }
