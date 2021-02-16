@@ -14,8 +14,7 @@ void DisplayManager::ReceiveData(QJsonDocument jsonDocument) {
 
     QTimer *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(ChangeWallpaper()));
-    //timer->start(60*60*1000); // 1 hrs
-    timer->start(5*1000); // 5 sec
+    timer->start(15*60*1000); // 15 minutes
 }
 
 void DisplayManager::ChangeWallpaper() {
