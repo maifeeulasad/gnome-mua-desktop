@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.cpp
-DisplayManager.h
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
-
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
 QApplication
 -
@@ -29,10 +25,6 @@ iostream
 -
 cstdlib
 -
-
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.cpp
-Manager.h
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.h
 
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.h
 QObject
@@ -55,38 +47,6 @@ QJsonDocument
 -
 iostream
 -
-
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_DisplayManager.cpp
-../../../DisplayManager.h
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/DisplayManager.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_Manager.cpp
-../../../Manager.h
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/Manager.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_NetworkManager.cpp
-../../../NetworkManager.h
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/NetworkManager.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_DisplayManager.cpp
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_DisplayManager.cpp
-EWIEGA46WW/moc_Manager.cpp
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_Manager.cpp
-EWIEGA46WW/moc_NetworkManager.cpp
-/home/mua/Desktop/gnome-mua-desktop/gmd-app/cmake-build-debug/gmd_app_autogen/EWIEGA46WW/moc_NetworkManager.cpp
 
 /home/mua/Desktop/gnome-mua-desktop/gmd-app/main.cpp
 QApplication
